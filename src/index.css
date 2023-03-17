@@ -2,10 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Quicksand';
+  /* font-family: 'Quicksand'; */
 }
 
 html,body,#root{
-  background-color: #efefef;
+  /* background-color: #efefef; */
   height: 100%;
 }
