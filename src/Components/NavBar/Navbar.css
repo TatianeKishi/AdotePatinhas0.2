@@ -1,6 +1,7 @@
 a{
     text-decoration: none;
     color: #5A3938;
+    
 }
 
 .navbar{
@@ -64,14 +65,14 @@ a{
     font-family: 'Quicksand';
     font-weight: 700;
     Top: 10px;
-    flex-direction: row-reverse;    
+    flex-direction: row-reverse;
 }
 
 .sb_navbar-menu svg{
     cursor: pointer;
 
 }
-
+--------
 .sb_navbar-menu_container{
     display: flex;
     justify-content: center;
@@ -87,7 +88,6 @@ a{
     min-width: 170px;
     border-radius: 5px;
     box-shadow: (0px 0px 6px rgba(0, 0, 0, 0.6));
-    
 }
 
 .sb_navbar-menu_container p{
@@ -97,7 +97,7 @@ a{
 .sb_navbar-links_container-liks-sign{
     display: none;
 }
-
+-------------
 .scole-up-center{
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39,0.575,0.565,1) both;
     animation: scale-up-center 0.4s cubic-bezier(0.39,0.575,0.565,1) both;
