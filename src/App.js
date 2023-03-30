@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Interests from "./pages/Interests/index"
+import Interests from "./pages/Interests/notInterests"
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Navbar.css';
+import './styles.css';
 import {BiMenu,BiX} from "react-icons/bi";
-import logo from "../../img/logo.svg"
+// import logo from "../../img/logo.svg"
 
 function NavBar() {
   const [toggleMenu, setToggleMenu]=useState(false);
@@ -11,7 +11,7 @@ function NavBar() {
         <div className='sb_navbar-links'>
           <div className='sb_navbar-links_logo'>
             <a href="/">
-              <img src={logo} className='header-logo'/>
+              <img src='/img/logo/logo.svg' className='header-logo'/>
             </a>
           </div>
           <div className='sb_navbar-links_container'>
